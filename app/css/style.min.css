@@ -252,6 +252,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 30px;
   color: #e73939;
+  margin-bottom: 10px;
 }
 
 .products__inner .products__inner-box .products__item:hover {
@@ -363,4 +364,199 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .stock__item-column {
   outline: none;
+}
+
+.new .new__items {
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.new .new__items .new__item {
+  height: 499px;
+  width: 240px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.new .new__items .new__item .new__item-img {
+  max-width: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new .new__items .new__item .new__item-img a {
+  outline: none;
+  border: none;
+}
+
+.new .new__items .new__item .new__item-content {
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.new .new__items .new__item .new__item-content a {
+  color: #444444;
+  line-height: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #444444;
+}
+
+.new .new__items .new__item .new__item-content p {
+  font-size: 12px;
+}
+
+.new .new__items .new__item .new__items-price h6 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #e73939;
+  margin-bottom: 10px;
+}
+
+.new .new__bottom-btn {
+  text-align: center;
+}
+
+.new__item-img a img {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.slick-initialized .slick-slide {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.articles {
+  background-color: #f4f3eb;
+}
+
+.articles .articles__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles__news .articles__news-title {
+  justify-content: start;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.articles__news .articles__news-item {
+  width: 425px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles__news .articles__news-item .articles__new-text {
+  padding-left: 20px;
+  color: #444444;
+}
+
+.articles__news .articles__news-item .articles__new-text a {
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  color: #444444;
+}
+
+.articles__news .articles__news-item .articles__new-text p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.articles__news .articles__news-item .articles__new-text .articles__new-data {
+  color: #777777;
+}
+
+.articles__news-item:first-child {
+  margin-bottom: 40px;
+}
+
+.articles__news-item:last-child {
+  margin-bottom: 20px;
+}
+
+.articles__reviews .articles__reviews-title {
+  justify-content: start;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.articles__reviews .articles__reviews-item {
+  width: 425px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles__reviews .articles__reviews-item .articles__reviews-text {
+  padding-left: 20px;
+  color: #444444;
+}
+
+.articles__reviews .articles__reviews-item .articles__reviews-text a {
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  color: #444444;
+}
+
+.articles__reviews .articles__reviews-item .articles__reviews-text p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.articles__reviews .articles__reviews-item .articles__reviews-text .articles__reviews-data {
+  color: #777777;
+}
+
+.articles__reviews-item:first-child {
+  margin-bottom: 40px;
+}
+
+.articles__reviews-item:last-child {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #5d5555;
+}
+
+.footer .footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.footer .footer__inner .footer__column {
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.footer .footer__inner .footer__column a {
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.footer .footer__inner .footer__column h6 {
+  font-size: 16px;
 }
