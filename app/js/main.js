@@ -6,9 +6,16 @@ $(function(){
         arrows: false,
     });
 
-    $('.partner__inner').slick({
+    $('.partner__items').slick({
         autoplay: true,
         slidesToShow: 7,
+        slidesToScroll: 1,
+        arrows: false,
+    });
+
+    $('.stock__items').slick({
+        autoplay: true,
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
     });
