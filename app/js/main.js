@@ -2,7 +2,7 @@ $(function(){
 
     $('.slider__inner').slick({
         autoplay: true,
-        // dots: true,
+        dots: true,
         arrows: false,
     });
 
@@ -10,7 +10,8 @@ $(function(){
         autoplay: true,
         slidesToShow: 7,
         slidesToScroll: 1,
-        arrows: false,
+        prevArrow: '<div class="slick-prev"></div>',
+        nextArrow: '<div class="slick-next"></div>',
     });
 
     $('.stock__items').slick({
@@ -20,11 +21,5 @@ $(function(){
         arrows: false,
     });
 
-    $('.new__items').slick({
-        autoplay: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: false,
-    });
 
 });

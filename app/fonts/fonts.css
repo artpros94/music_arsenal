@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?6vee7w');
+    src:  url('../fonts/icomoon.eot?6vee7w#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?6vee7w') format('truetype'),
+      url('../fonts/icomoon.woff?6vee7w') format('woff'),
+      url('../fonts/icomoon.svg?6vee7w#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-search:before {
+    content: "\f002";
+  }
+  .icon-heart:before {
+    content: "\f004";
+  }
+  .icon-clock-o:before {
+    content: "\f017";
+  }
+  .icon-align-right:before {
+    content: "\f038";
+  }
+  .icon-phone:before {
+    content: "\f095";
+  }
+  .icon-map-signs:before {
+    content: "\f277";
+  }
+  .icon-shopping-basket:before {
+    content: "\f291";
+  }
+  .icon-circle-right:before {
+    content: "\ea42";
+  }
+  .icon-circle-left:before {
+    content: "\ea44";
+  }
+  
