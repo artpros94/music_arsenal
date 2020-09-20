@@ -37,7 +37,6 @@ body {
 
 .header {
   border-bottom: 1px solid #ed1c24;
-  position: fixed;
   width: 100%;
   z-index: 5;
   background: linear-gradient(to bottom, #a9e4f7 0%, #0fb4e7 20%, #0fb4e7 71%);
@@ -48,6 +47,7 @@ body {
   padding-right: 28px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 15px;
   padding-bottom: 5px;
   align-items: center;
@@ -57,7 +57,18 @@ body {
   text-align: center;
   font-size: 14px;
   line-height: 20px;
-  color: #ed1c24 #ed1c24;
+  color: #ed1c24;
+}
+
+.header .header__inner .header__logo a img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.header .header__inner .header__search {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .header .header__inner .header__search input {
@@ -92,8 +103,19 @@ body {
   font-size: 15px;
 }
 
+.header__menu-btn {
+  width: 40px;
+  display: none;
+}
+
+.header__menu-btn .header__menu-row {
+  width: 100%;
+  background-color: #fff;
+  height: 5px;
+  margin-bottom: 4px;
+}
+
 .menu {
-  padding-top: 86px;
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 0px;
@@ -472,9 +494,19 @@ body {
 
 .stock__inner .stock__items .stock__item {
   background-color: #f4f3eb;
-  width: 470px;
   display: flex;
   justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.stock__inner .stock__items .stock__item .stock__item-images {
+  width: 100%;
+}
+
+.stock__inner .stock__items .stock__item .stock__item-images img {
+  width: 100%;
+  height: auto;
 }
 
 .stock__inner .stock__items .stock__item .stock__item-text {
@@ -592,7 +624,7 @@ body {
 }
 
 .articles__news .articles__news-item {
-  width: 425px;
+  max-width: 425px;
   display: flex;
   justify-content: space-between;
 }
@@ -635,7 +667,7 @@ body {
 }
 
 .articles__reviews .articles__reviews-item {
-  width: 425px;
+  max-width: 425px;
   display: flex;
   justify-content: space-between;
 }
@@ -678,6 +710,7 @@ body {
 .footer .footer__inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 50px;
 }
